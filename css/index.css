@@ -14,3 +14,6 @@ body{
 .welButton{
 	width: 100%;
 }
+.welButton::after{
+	color: beige;
+}
