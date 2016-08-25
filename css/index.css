@@ -4,22 +4,18 @@
 	border: none;
 }
 
-body {
+.hotPot{
 	width: 100%;
-	height: 100%;
-	background-image: url(../picture/backgroundHotPot.jpg);
-	background-repeat: no-repeat;
-	background-position: 50% 28%;
 }
-
 .welcome {
-	height: 100px;
+	height: 25px;
 	margin-left: 30%;
 	width: 40%;
-	margin-top: 450px;
+	margin-top: 45px;
 }
 
 .welButton {
+	max-width: 200px;
 	border-radius: 3.5px;
 	background-color: antiquewhite;
 	width: 100%;
