@@ -24,7 +24,8 @@
 	border-radius: 3.5px;
 	background-color: antiquewhite;
 	width: 100%;
-	height: 25px;	
+	height: 25px;
+	text-align: center;	
 }
 
 .welButton::after {
