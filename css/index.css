@@ -47,7 +47,6 @@
 }
 
 .github,
-.gmail,
 .zhihu,
 .weibo {
 	color: black;
@@ -57,11 +56,15 @@
 	text-align: center;
 	float: left;
 	font-family: "iconfont";
-	width: 25%;
-	max-width: 75px;
+	width: 33%;
+	max-width: 100px;
 }
-
-.gmail,
-.github {
+.weibo{
+	text-align: left;
+}
+.zhihu{
+	text-align: right;
+}
+.github,.zhihu {
 	font-size: 23px;
 }
