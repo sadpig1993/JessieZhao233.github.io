@@ -16,14 +16,25 @@
 	outline: none;
 }
 
-
-
 .welcome {
 	max-width: 300px;
 	margin-left: 30%;
 	width: 40%;
 	margin-top: 60px;
 	margin: 60px auto;
+}
+
+.welcome p {
+	padding: 8px 0;
+	text-align: center;
+}
+
+.pTitle {
+	margin-top: 20px;
+}
+
+.aDiv {
+	height: 100px;
 }
 
 .hotPot {
@@ -59,12 +70,16 @@
 	width: 33%;
 	max-width: 100px;
 }
-.weibo{
+
+.weibo {
 	text-align: left;
 }
-.zhihu{
+
+.zhihu {
 	text-align: right;
 }
-.github,.zhihu {
+
+.github,
+.zhihu {
 	font-size: 23px;
 }
