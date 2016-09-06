@@ -1,29 +1,34 @@
 @font-face {
-  font-family: 'iconfont';
-  src: url('//at.alicdn.com/t/font_1473060575_2014618.eot'); /* IE9*/
-  src: url('//at.alicdn.com/t/font_1473060575_2014618.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
-  url('//at.alicdn.com/t/font_1473060575_2014618.woff') format('woff'), /* chrome、firefox */
-  url('//at.alicdn.com/t/font_1473060575_2014618.ttf') format('truetype'), /* chrome、firefox、opera、Safari, Android, iOS 4.2+*/
-  url('//at.alicdn.com/t/font_1473060575_2014618.svg#iconfont') format('svg'); /* iOS 4.1- */
+	font-family: 'iconfont';
+	src: url('//at.alicdn.com/t/font_1473126154_82672.eot');
+	/* IE9*/
+	src: url('//at.alicdn.com/t/font_1473126154_82672.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+	url('//at.alicdn.com/t/font_1473126154_82672.woff') format('woff'), /* chrome、firefox */
+	url('//at.alicdn.com/t/font_1473126154_82672.ttf') format('truetype'), /* chrome、firefox、opera、Safari, Android, iOS 4.2+*/
+	url('//at.alicdn.com/t/font_1473126154_82672.svg#iconfont') format('svg');
+	/* iOS 4.1- */
 }
-                    
-                   
+
 * {
 	margin: 0;
 	padding: 0;
 	border: none;
 	outline: none;
 }
-body{
+
+body {
 	width: 100%;
 	height: 100%;
+	overflow: hidden;
 }
 
 .welcome {
+	position: relative;
+	top: -10px;
 	max-width: 300px;
 	margin-left: 30%;
 	width: 40%;
-	margin-top: 60px;
+	margin-top: 0px;
 	margin: 60px auto;
 }
 
@@ -37,7 +42,7 @@ body{
 }
 
 .aDiv {
-	height: 100px;
+	height: 50px;
 }
 
 .hotPot {
@@ -47,7 +52,7 @@ body{
 }
 
 .welButton {
-	margin-top: 40px;
+	margin-top: 20px;
 	max-width: 300px;
 	border-radius: 3.5px;
 	background-color: antiquewhite;
@@ -59,6 +64,7 @@ body{
 .welButton::after {
 	color: beige;
 }
+
 .more,
 .github,
 .weibo {
@@ -80,35 +86,57 @@ body{
 .more {
 	text-align: right;
 	position: relative;
-    top: 2px;
+	top: 2px;
 }
 
 .github {
 	font-size: 23px;
 }
-.next,.pet,.music,.feeling,.note{
+
+.next,
+.pet,
+.music,
+.feeling,
+.note {
 	font-family: "iconfont";
 }
 
-.swipeTile{
+.swipeTile {
 	width: 90%;
-	height: 1000px;
-	margin: 0 auto;
+	margin-left: 5%;
+	margin-top: 80px;
+	width: 90%;
 }
 
-.pet,.music,.feeling,.note{
+.pet,
+.music,
+.feeling,
+.note {
+	color: pink;
 	max-width: 200px;
 	width: 25%;
 	font-size: 50px;
 	text-align: center;
 	float: left;
+	position: relative;
+	border-bottom: 1px solid pink;
+	border-top: 1px solid pink;
+	border-left: 1px solid pink;
 }
-.music{
-	
+.musicP{
+	position: relative;
+	top: 2px;
 }
-.feeling{
-	
+.noteP{
+	position: relative;
+	top: 1px;
 }
-.note{
-	
+
+.note {
+	border-right: 1px solid pink;
+}
+
+.petP {
+	position: relative;
+	top: -4px;
 }
