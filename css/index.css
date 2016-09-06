@@ -281,12 +281,14 @@ li {
 	font-family: "iconfont";
 	margin-right: 2%;
 }
-.currentPage{
-	text-align: center;
-		float: left;
-		width: 56%;
-}
 
+.currentPage {
+	text-align: center;
+	float: left;
+	width: 56%;
+	height: 18px;
+	line-height: 20px;
+}
 
 .serachPage input {
 	border-radius: 4px;
