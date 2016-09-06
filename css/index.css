@@ -102,14 +102,6 @@ li {
 	font-size: 23px;
 }
 
-.next,
-.pet,
-.music,
-.feeling,
-.note {
-	font-family: "iconfont";
-}
-
 .swipeTile {
 	border: 1px solid pink;
 	border-radius: 5px;
@@ -134,6 +126,8 @@ li {
 	float: left;
 	background-color: indianred;
 	height: 30px;
+	font-family: "iconfont";
+	font-size: 25px;
 }
 
 .pet:active,
