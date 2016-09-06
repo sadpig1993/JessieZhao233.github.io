@@ -105,9 +105,9 @@ body {
 	width: 90%;
 	margin-left: 5%;
 	width: 90%;
-	height: 80px;
-	max-width: 805px;
-	margin: 80px auto;
+	height: 40px;
+	max-width: 800px;
+	margin: 20px auto;
 }
 
 .pet,
@@ -117,9 +117,15 @@ body {
 	color: pink;
 	max-width: 200px;
 	width: 25%;
-	font-size: 50px;
+	font-size: 20px;
 	text-align: center;
 	float: left;
+}
+
+.pet>p,
+.music>p,
+.feeling>p,
+.note>p {
 	border-bottom: 1px solid pink;
 	border-top: 1px solid pink;
 	border-left: 1px solid pink;
@@ -135,7 +141,7 @@ body {
 	top: 1px;
 }
 
-.note {
+.note>p {
 	border-right: 1px solid pink;
 }
 
@@ -145,50 +151,55 @@ body {
 }
 
 .petContent {
+	border-radius: 4px;
 	width: 90%;
 	margin-left: 5%;
-	height: 400px;
+	height: 200px;
 	border: 1px solid pink;
-	max-width: 805px;
-	margin: 80px auto;
+	max-width: 800px;
+	margin: 0px auto;
 	margin-bottom: 20px;
 }
 
 .petContent>img {
-	margin-top: 10px;
-	width: 80px;
-	height: 80px;
+	margin-top: 5px;
+	width: 40px;
+	height: 40px;
 	border: 1px solid floralwhite;
 	border-radius: 50%;
-	margin-left: 10px;
+	margin-left: 5px;
 	float: left;
 }
-.userHead{
+
+.userHead {
 	float: left;
-	left: 10px;
+	left: 6px;
 }
+
 .publishTime,
 .userName {
 	text-align: left;
 	position: relative;
 	color: #c1c1c1;
-	left: 12px;
+	left: 8px;
 }
 
 .userName {
-	top: 20px;
-	font-size: 25px;
-	
+	top: 10px;
+	font-size: 12px;
 }
 
 .publishTime {
-	top: 40px;
+	top: 19px;
+	font-size: 4px;
 }
-.petContent .content{
+
+.petContent .content {
 	width: 800px;
 	height: 300px;
 }
-.petContent .content>img{
+
+.petContent .content>img {
 	width: 100px;
 	height: 100px;
 }
