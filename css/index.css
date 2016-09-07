@@ -307,3 +307,27 @@ li {
 	margin-left: 2emm;
 	float: left;
 }
+
+.detailTitle,.detailContent {
+	width: 90%;
+	margin-left: 5%;
+}
+
+.detailTitle p {
+	height: 40px;
+    line-height: 40px;
+	text-align: center;
+}
+.detailContent img{
+	width: 50%;
+	margin-left: 25%;
+	height: 250px;
+}
+.detailContent p{
+	width: 80%;
+	margin-left: 10%;
+	text-align: left;
+	word-break:break-word;
+	height: 30px;
+	line-height: 30px;
+}
