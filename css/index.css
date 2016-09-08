@@ -30,7 +30,7 @@ li {
 	list-style-type: none;
 }
 
-.welcome {
+.welcomeMain {
 	position: relative;
 	top: -10px;
 	max-width: 300px;
@@ -41,26 +41,26 @@ li {
 	margin-bottom: 10px !important;
 }
 
-.welcome p {
+.welcomeMain p {
 	padding: 8px 0;
 	text-align: center;
 }
 
-.pTitle {
+.welcomeMain .pTitle {
 	margin-top: 20px;
 }
 
-.aDiv {
+.welcomeMain .LinkS {
 	height: 50px;
 }
 
-.hotPot {
+.welcomeMain .hotPot {
 	width: 100% !important;
 	max-width: 300px;
 	max-height: 300px;
 }
 
-.welButton {
+.welcomeMain button {
 	margin-top: 20px;
 	max-width: 300px;
 	border-radius: 3.5px;
@@ -70,7 +70,7 @@ li {
 	text-align: center;
 }
 
-.welButton::after {
+.welcomeMain button::after {
 	color: beige;
 }
 
@@ -174,7 +174,7 @@ li {
 	position: relative;
 }
 
-.petContent {
+.petMain .petContent {
 	border-radius: 4px;
 	width: 90%;
 	margin-left: 5%;
@@ -185,7 +185,7 @@ li {
 	margin-bottom: 20px;
 }
 
-.petContent>img {
+.petMain .petContent>img {
 	margin-top: 5px;
 	width: 40px;
 	height: 40px;
@@ -195,30 +195,30 @@ li {
 	float: left;
 }
 
-.userHead {
+.petMain .userHead {
 	float: left;
 	left: 6px;
 }
 
-.publishTime,
-.userName {
+.petMain .publishTime,
+.petMain .userName {
 	text-align: left;
 	position: relative;
 	color: #c1c1c1;
 	left: 8px;
 }
 
-.userName {
+.petMain .userName {
 	top: 10px;
 	font-size: 12px;
 }
 
-.publishTime {
+.petMain .publishTime {
 	top: 19px;
 	font-size: 4px;
 }
 
-.petContent .content {
+.petMain .petContent .content {
 	position: relative;
 	margin-left: 5%;
 	width: 90%;
@@ -226,7 +226,7 @@ li {
 	top: 67px;
 }
 
-.petContent .content>img {
+.petMain .petContent .content>img {
 	position: relative;
 	margin-top: 10px;
 	float: left;
@@ -235,7 +235,7 @@ li {
 	height: 100px;
 }
 
-.noteList {
+.noteLIstMain .noteList {
 	border-radius: 4px;
 	width: 90%;
 	margin-left: 5%;
@@ -245,35 +245,35 @@ li {
 	margin: 10px auto;
 }
 
-.noteList ul {
+.noteLIstMain .noteList ul {
 	margin: 10px 2%;
 }
 
-.noteList ul li span {
+.noteLIstMain .noteList ul li span {
 	font-family: "iconfont";
 	position: relative;
 	top: -1px;
 }
 
-.noteList ul li {
+.noteLIstMain .noteList ul li {
 	line-height: 24px;
 	height: 24px;
 }
 
-.serachPage {
+.noteLIstMain .serachPage {
 	margin-top: 10px;
 	width: 100%;
 	height: 20px;
 	float: left;
 }
 
-.sercahIcon,
-.write {
+.noteLIstMain .sercahIcon,
+.noteLIstMain .write {
 	width: 20%;
 	float: left;
 }
 
-.sercahIcon {
+.noteLIstMain .sercahIcon {
 	float: right;
 	height: 20px;
 	line-height: 20px;
@@ -282,7 +282,7 @@ li {
 	margin-right: 2%;
 }
 
-.currentPage {
+.noteLIstMain .currentPage {
 	text-align: center;
 	float: left;
 	width: 56%;
@@ -290,7 +290,7 @@ li {
 	line-height: 20px;
 }
 
-.serachPage input {
+.noteLIstMain .serachPage input {
 	border-radius: 4px;
 	border: 1px solid #C1C1C1;
 	text-align: center;
@@ -301,7 +301,7 @@ li {
 	float: left;
 }
 
-.write {
+.noteLIstMain .write {
 	margin-left: 2%;
 	font-family: "iconfont";
 	margin-left: 2emm;
