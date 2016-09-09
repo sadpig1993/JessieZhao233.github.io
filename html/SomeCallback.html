@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>我的前端之路</title>
+		<link rel="stylesheet" type="text/css" href="../css/index.css" />
+	</head>
+
+	<body>
+		<div class="noteMain">
+			<div class="detailTitle">
+				<p>callBack</p>
+			</div>
+			<div class="detailContent">
+				<p><span>&#xe611;&nbsp;</span>关于callBack回调的理解</p>
+				<p><span>&#xe611;&nbsp;</span>就拿请求一个URL，返回一个字符串为例</p>
+				<p><span>&#xe611;&nbsp;</span>getMsg: function(callBack){</p>
+				<p><span>&#xe611;&nbsp;</span>&nbsp;&nbsp;&nbsp;&nbsp;var url="getMsg";</p>
+				<p><span>&#xe611;&nbsp;</span>&nbsp;&nbsp;&nbsp;&nbsp;ajax({</p>
+				<p><span>&#xe611;&nbsp;</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;url:url,</p>
+				<p><span>&#xe611;&nbsp;</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;success:function(res){</p>
+				<p><span>&#xe611;&nbsp;</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;callBack(res.content);</p>
+				<p><span>&#xe611;&nbsp;</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;}};</p>
+				<p><span>&#xe611;&nbsp;</span>&nbsp;&nbsp;&nbsp;&nbsp;}</p>
+				<p><span>&#xe611;&nbsp;</span>getMsg(function(showMsg){</p>
+				<p><span>&#xe611;&nbsp;</span>&nbsp;&nbsp;&nbsp;&nbsp;ele.html(showMsg);});</p>
+				<p><span>&#xe611;&nbsp;</span>这里就是一个回调</p>
+				<p><span>&#xe611;&nbsp;</span>将这个function(showMsg)作为一个callback传给到getMsg这个函数里面</p>
+				<p><span>&#xe611;&nbsp;</span>那为什么要回调呢？</p>
+				<p><span>&#xe611;&nbsp;</span>因为当你需要这个返回的字符串的时候，可能字符串并没有传回来</p>
+				<p><span>&#xe611;&nbsp;</span>所以，我们需要在这个获取字符串的函数里面放个小东西，让他告诉我们，值已经回来了，你可以用啦~</p>
+				<p><span>&#xe611;&nbsp;</span>所以，在这里，我们需要callback啦~</p>
+				<p><span>&#xe611;&nbsp;</span>那么又来一个问题，为什么这个值一时半会回不来呢？</p>
+				<p><span>&#xe611;&nbsp;</span></p>
+				<p><span>&#xe611;&nbsp;</span></p>
+
+			</div>
+		</div>
+	</body>
+
+</html>
