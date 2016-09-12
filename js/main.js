@@ -1,6 +1,5 @@
 (function(){
     var hash = location.hash.replace('#','');
-    console.log(location.hash);
     if(hash == ''){
         location.hash='#position';
     }
