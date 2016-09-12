@@ -1,5 +1,6 @@
 (function() {
 	var hash = location.hash.replace('#', '');
+	getArticle(hash);
 	$("#moreToMainPage").on("click", function() {
 		location.hash = "#myCat";
 	});
