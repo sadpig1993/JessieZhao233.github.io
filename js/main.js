@@ -3,7 +3,7 @@
 	$("#moreToMainPage").on("click", function() {
 		location.hash = "#myCat";
 	});
-	$(".swipeTile").on("click", function() {
+	$(".pet").on("click", function() {
 		location.hash = "#myCat";
 	});
 	$(".note").on("click", function() {
