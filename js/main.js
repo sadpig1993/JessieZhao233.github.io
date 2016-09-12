@@ -2,6 +2,7 @@
 	var hash = location.hash.replace('#', '');
 	$("#moreToMainPage").on("click", function() {
 		location.hash = "#myCat";
+		var hash = location.hash.replace('#', '');
 		getArticle(hash);
 	});
 	$(window).on('hashchange', function() {
