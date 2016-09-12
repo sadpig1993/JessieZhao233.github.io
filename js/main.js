@@ -13,6 +13,7 @@
             type: "GET",
             dataType:'json',
             success:function(data){
+               	$("#welcomeMain").hide();
                 $('#view').html(data.content);
             },
             error:function(er){
