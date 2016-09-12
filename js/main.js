@@ -2,8 +2,12 @@
 	var hash = location.hash.replace('#', '');
 	$("#moreToMainPage").on("click", function() {
 		location.hash = "#myCat";
-		var hash = location.hash.replace('#', '');
-		getArticle(hash);
+	});
+	$(".swipeTile").on("click", function() {
+		location.hash = "#myCat";
+	});
+	$(".note").on("click", function() {
+		location.hash = "#note";
 	});
 	$(window).on('hashchange', function() {
 		var hash = location.hash.replace('#', '');
