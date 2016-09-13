@@ -1,5 +1,5 @@
 (function() {
-	$("#welcomeMain").hide();
+	
 	var hash = location.hash.replace('#', '');
 	getArticle(hash);
 	$("#moreToMainPage").on("click", function() {
@@ -25,6 +25,7 @@
 			type: "GET",
 			dataType: 'json',
 			success: function(data) {
+				$("#welcomeMain").hide();
 				$('#view').html(data.content);
 			},
 			error: function(er) {
