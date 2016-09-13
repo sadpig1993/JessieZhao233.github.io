@@ -4,10 +4,10 @@
 	$("#moreToMainPage").on("click", function() {
 		location.hash = "#myCat";
 	});
-	$(".pet").on("click", function() {
+	$("#pet").on("click", function() {
 		location.hash = "#myCat";
 	});
-	$(".note").on("click", function() {
+	$("#note").on("click", function() {
 		location.hash = "#note";
 	});
 	$(window).on('hashchange', function() {
